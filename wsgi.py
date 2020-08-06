@@ -5,10 +5,14 @@ application = Flask(__name__)
 def hello():
     return "Hello World!"
 
-
 @application.route("/Ron")
 def helloR():
     return "Hello Ron!"
+
+@application.route("/Maurits")
+def helloR():
+    return "Je staat op Mute!"
+
 
 
 if __name__ == "__main__":
