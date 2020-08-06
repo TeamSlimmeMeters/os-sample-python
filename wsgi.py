@@ -10,7 +10,7 @@ def helloR():
     return "Hello Ron!"
 
 @application.route("/Maurits")
-def helloR():
+def helloM():
     return "Je staat op Mute!"
 
 
